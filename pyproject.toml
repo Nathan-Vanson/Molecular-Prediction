@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "molecular-prediction"
+version = "0.1.0"
+description = "Molecular Property Prediction for the Data Mining course"
+authors = ["Nathan.Vanson <Nathan.Vanson@etu.unige.ch>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
